@@ -23,8 +23,10 @@ const record = [
 
 function superbowlWin(array) {
     const found = array.find(result)
-    console.log (found.year)
-    return found.year
+    console.log (found)
+    if (found) {
+        return found.year
+    }
 }
 
 const result = (object) => {
